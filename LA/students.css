@@ -1,0 +1,103 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+* a {
+  text-decoration: none;
+}
+* a :hover {
+  color: red;
+}
+
+nav {
+  background-color: black;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+nav .p4-logo {
+  width: 25%;
+}
+nav .p4-logo a img {
+  padding-top: 25px;
+  width: 60px;
+  height: 60px;
+}
+nav .nav-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav .nav-items ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav .nav-items ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav .nav-items ul li a {
+  padding: 50px;
+  text-decoration: none;
+  color: white;
+}
+nav .nav-items ul li a:hover {
+  color: red;
+}
+
+.students-info {
+  padding: 50px 50px;
+}
+.students-info .students_id_card {
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  gap: 50px;
+  width: 100%;
+}
+.students-info .students_id_card .col {
+  border: 2px solid black;
+}
+.students-info .students_id_card .col .id_card .span {
+  padding: 5px;
+  background-color: rgb(126, 5, 5);
+  color: white;
+  text-align: center;
+}
+.students-info .students_id_card .col .id_card .quote {
+  padding: 5px;
+  background-color: rgb(126, 5, 5);
+  color: white;
+  text-align: center;
+}
+.students-info .students_id_card .col .id_card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.students-info .students_id_card .col .id_card .card-header .socials {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.students-info .students_id_card .col .id_card .card-header .socials a img {
+  height: 35px;
+  width: 35px;
+}
+.students-info .students_id_card img {
+  height: 65px;
+}
+.students-info .students_id_card .std-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+}
+.students-info .students_id_card .id-data {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+.students-info .students_id_card .id-data .id-details {
+  padding-left: 10px;
+}/*# sourceMappingURL=students.css.map */

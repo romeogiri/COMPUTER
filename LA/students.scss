@@ -1,0 +1,142 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+
+        :hover {
+            color: red;
+        }
+    }
+}
+
+nav {
+    background-color: black;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+
+    .p4-logo {
+        width: 25%;
+
+        a {
+
+            img {
+                padding-top: 25px;
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+
+    .nav-items {
+        display: flex;
+        justify-content: space-evenly;
+
+        ul {
+            display: flex;
+            // flex-direction: row;
+            justify-content: space-around;
+
+
+            li {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                a {
+                    padding: 50px;
+                    text-decoration: none;
+                    color: white;
+                }
+
+                a:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.students-info {
+    padding: 50px 50px;
+
+    .students_id_card {
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        gap: 50px;
+
+        .col {
+            border: 2px solid black;
+
+            .id_card {
+                .span {
+                    padding: 5px;
+                    background-color: rgb(126, 5, 5);
+                    color: white;
+                    text-align: center;
+                }
+
+                .quote {
+                    padding: 5px;
+                    background-color: rgb(126, 5, 5);
+                    color: white;
+                    text-align: center;
+                }
+
+                .card-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .socials {
+                        padding: 20px 0px;
+                        display: flex;
+                        justify-content: space-around;
+
+                        a {
+                            img {
+                                height: 35px;
+                                width: 35px;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+        width: 100%;
+        // justify-content: space-between;
+
+        img {
+            // width: 150px;
+            height: 65px;
+            // border-radius: 50px;
+        }
+
+        .std-img {
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50px;
+
+            }
+        }
+
+        .id-data {
+
+            display: flex;
+            justify-content: space-between;
+            width: auto;
+
+            .id-details {
+                padding-left: 10px;
+            }
+        }
+    }
+}
